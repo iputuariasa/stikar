@@ -1,0 +1,94 @@
+.box-imgProfil{
+    width: 120px;
+    height: 120px;
+}
+.box-detailSekolah table tr {
+    font-size: 1em;
+}
+.box-detailAdmin table tr td{
+    padding-top: 20px;
+}
+.box-detailSekolah table tr {
+    font-size: 0.9em;
+}
+.section-motivasi{
+    height: 200px;
+    margin-bottom: 150px !important;
+}
+.text-inovasi h6 span{
+    font-size: 1.5em;
+    font-family: 'Secular One', sans-serif;
+}
+.pembicara-inovasi{
+    border-bottom: 2px dotted gold;
+}
+#footer{
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    padding-bottom: 0px !important;
+}
+#footer button{
+    display: none;
+}
+
+/* Responsif Breakpoint */
+/* Destop Extra extra large */
+@media screen and (max-width: 1920px){
+    .box-imgProfil{
+        width: 150px;
+        height: 150px;
+        top: 53% !important;
+    }
+}
+
+/* Destop Extra large */
+@media screen and (max-width: 1400px){
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 40% !important;
+        transition: 0.5s all;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 50% !important;
+    }
+}
+
+/* Size Tablet */
+@media screen and (max-width: 768px){
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 60% !important;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 60% !important;
+    }
+    .box-detailSekolah table tr {
+        font-size: 1em;
+    }
+}
+
+/* Size MObile */
+@media screen and (max-width: 414px){
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 45% !important;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 45% !important;
+    }
+    .box-detailSekolah table tr {
+        font-size: 0.7em;
+    }
+    #footer small{
+        font-size: 0.7em;
+    }
+}

@@ -1,0 +1,105 @@
+.box-imgProfil{
+    width: 120px;
+    height: 120px;
+}
+
+#footer{
+    display: none;
+    margin-top: 130px;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    padding-bottom: 0px !important;
+}
+#footer button{
+    display: none;
+}
+.box-menuProfil ul li{
+    cursor: pointer;
+}
+.box-btnBiodata div button.active{
+    background-color: gold !important;
+}
+.isiBiodata{
+    margin: 10px !important;
+    display: none;
+}
+.isiBiodata.active{
+    display: inline;
+}
+.isiBiodata table tr td{
+    padding-bottom: 10px;
+}
+.form-updateBiodata{
+    display: none;
+}
+.form-updatePassword{
+    display: none;
+}
+.form-updateBiodata.active{
+    display: flex;
+}
+.form-updatePassword.active{
+    display: flex;
+}
+
+/* Responsif Breakpoint */
+/* Destop Extra extra large */
+@media screen and (max-width: 1920px){
+    .box-imgProfil{
+        width: 150px;
+        height: 150px;
+        top: 53% !important;
+    }
+}
+
+/* Destop Extra large */
+@media screen and (max-width: 1400px){
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 40% !important;
+        transition: 0.5s all;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 50% !important;
+    }
+    #footer{
+        display: flex;
+    }
+}
+
+/* Size Tablet */
+@media screen and (max-width: 768px){
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 60% !important;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 60% !important;
+    }
+}
+
+/* Size Mobile */
+@media screen and (max-width: 414px){
+    #footer small{
+        font-size: 0.7em;
+    }
+    .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 45% !important;
+    }
+    .main.active .box-imgProfil{
+        width: 120px;
+        height: 120px;
+        top: 45% !important;
+    }
+    .box-btnBiodata button{
+        margin-bottom: 10px;
+    }
+}

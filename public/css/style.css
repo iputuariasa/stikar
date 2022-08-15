@@ -1,0 +1,234 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+    background-color: #ddd;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    text-shadow: 2px 3px  0px goldenrod;
+}
+#title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.6em;
+    font-weight: 900;
+    font-style: oblique;
+    text-shadow: 3px 4px  0px goldenrod;
+}
+.slogan{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: gold;
+    font-size: 2.5em;
+}
+.btn-psb{
+    width: 40%;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.section-motivasi{
+    height: 150px;
+}
+.text-inovasi h6 span{
+    font-size: 1.5em;
+    font-family: 'Secular One', sans-serif;
+}
+.pembicara-inovasi{
+    border-bottom: 2px dotted gold;
+}
+.box-identitas-sekolah table{
+    width: 100%;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fdc134;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-title-white{
+    text-align: center;
+}
+.section-title-white h2{
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.section-title-white h2::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #001E3C;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title-white h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #8114f6;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+/* fasilitas */
+.row-fasilitas{
+    overflow-x: scroll;
+}
+.row-fasilitas::-webkit-scrollbar{
+    width: 12px;
+}
+.row-fasilitas::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right,transparent,#30ff00);
+    border-radius: 6px;
+}
+.row-fasilitas::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(to right,transparent,#00c6ff);
+}
+.box-scroll{
+    position: relative;
+}
+.box-scroll img{
+    width: 350px;
+    height: auto;
+    margin-right: 10px;
+}
+.box-scroll span{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #001E3C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+.box-maps{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.box-kontak li{
+    list-style: none;
+}
+
+/* Responsif Breakpoint */
+
+/* Size Tablet */
+@media screen and (max-width: 768px){
+    #title{
+        margin-top: 40px;
+    }
+    .box-identitas-sekolah h3{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .box-medsos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #berita h3{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .logo{
+        width: 30px;
+    }
+    .title{
+        font-size: 0.8em;
+    }
+    #navbarNav ul li a{
+        text-align: center;
+    }
+    #title{
+        font-size: 2.6em;
+    }
+    .slogan{
+        font-size: 1.8em;
+    }
+    .btn-psb{
+        margin-bottom: 20px;
+    }
+    .box-identitas-sekolah h3{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .box-identitas-sekolah table{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .col-mbl{
+        width: 30%;
+    }
+    .section-title{
+        padding-bottom: 10px;
+    }
+    .col-medsos{
+        margin-top: 20px;
+    }
+    .box-medsos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .col-kontak{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .box-kontak{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-img-berita{
+        display: none;
+    }
+    #berita .row{
+        margin: 3px;
+    }
+    .btn-berita{
+        display: flex;
+        justify-content: center;
+    }
+}
